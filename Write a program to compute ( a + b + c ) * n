@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+int a= 2;
+int b= 3;
+int c= 5;
+int n= 2;
+printf("%d",( a + b + c ) * n);
+    return 0;
+}
