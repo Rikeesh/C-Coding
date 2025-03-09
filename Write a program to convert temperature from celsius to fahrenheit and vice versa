@@ -1,0 +1,16 @@
+A)celsius to fahrenheit 
+#include <stdio.h>
+int main() {
+float C=10;
+float F= C*(9/5)+32;
+printf("Temperature in fahreinheit is: %f\n",F);
+return 0;
+}
+B)Fahrenheit to Celsius
+#include <stdio.h>
+int main() {
+float F=100;
+float C= (F-32)*5/9;
+printf("Temperature in Celsius is: %f\n",C);
+return 0;
+}
