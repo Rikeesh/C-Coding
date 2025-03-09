@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+int l=10;
+int b=5;
+int h=3;
+int Surfacearea=2*(l*b+b*h+l*h);
+int Volume= l*b*h;
+printf("Surface Area of Cuboid: %d\n",Surfacearea);
+printf("Volume of Cuboid: %d",Volume);
+return 0;
+}
