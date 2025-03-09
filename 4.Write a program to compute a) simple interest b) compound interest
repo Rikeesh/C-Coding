@@ -1,0 +1,21 @@
+a) simple interest
+#include <stdio.h>
+int main() {
+int p=1000;//principal amount
+float r=0.5;//rate of intrest in decimal
+int t=3;//time period in years
+float Simpleinterest= (p*(1+r*t));
+printf("Simple interest is: %f\n",Simpleinterest);
+return 0;
+}
+b)CompoundIntrest
+#include <stdio.h>
+#include <math.h>
+int main() {
+float p=1000;//principal amount
+float r=5;//rate of intrest in percentage
+float t=3;//timeperiod in years
+float CI= p*pow(1+r/100,t)-p;
+printf("Simple interest is: %f\n",CI);
+return 0;
+}
