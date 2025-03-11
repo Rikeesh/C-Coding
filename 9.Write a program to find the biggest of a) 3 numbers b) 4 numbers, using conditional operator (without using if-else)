@@ -1,0 +1,29 @@
+A) 3 numbers
+#include <stdio.h>
+
+int main() {
+    int a, b, c, largest;
+    printf("Enter three integers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+    printf("The largest number is: %d", largest);
+
+    return 0;
+}
+B) 4 numbers
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c,d, large1,large2,largest;
+    printf("Enter four integers: ");
+    scanf("%d %d %d %d", &a, &b, &c,&d);
+
+    large1 =a>b?a:b;
+    large2=c>d?c:d;
+    largest=large1>large2?large1:large2;
+    printf("The largest number is: %d", largest);
+
+    return 0;
+}
