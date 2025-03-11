@@ -1,0 +1,32 @@
+A) 3 digit number 
+#include <stdio.h>
+
+int rnum(int n) {
+    int reverse=0;
+    while (n>0){
+        reverse=(reverse*10)+(n%10);
+        n=n/10;
+    }
+    return reverse;
+}
+int main(){
+    int n=345;
+    
+    printf("The reverse number is %d",rnum(n));
+}
+B) 4 digit number
+#include <stdio.h>
+
+int rnum(int n) {
+    int reverse=0;
+    while (n>0){
+        reverse=(reverse*10)+(n%10);
+        n=n/10;
+    }
+    return reverse;
+}
+int main(){
+    int n=5678;
+    
+    printf("The reverse number is %d",rnum(n));
+}
